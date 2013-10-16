@@ -1,2 +1,2 @@
-maven-projects
-==============
+Proyectos Vaadin
+================
