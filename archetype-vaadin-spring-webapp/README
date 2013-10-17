@@ -1,6 +1,12 @@
 Archetype Vaadin Spring Webapp
 ==============================
 
-"archetype-vaadin-spring-webap" es un proyecto Maven que integra Vaadin y Spring en el que contamos con un punto de entrada a la aplicación mediante la vista MainView.java, en esta se muestra un enlace a ExampleView.java que como su nombre indica es un ejemplo sencillo de vista Vaadin que consta de un formulario que solicita al usuario su nombre y mediante una clase de servicio envía una clase de dominio a la capa de acceso a datos (Dao.java) que simplemente asigna el id de la clase de dominio recibida (Dominio.java) y "pinta" por consola el objeto recibido. 
+"archetype-vaadin-spring-webap" es un proyecto Maven que integra Vaadin y Spring en el que contamos con un punto de
+entrada a la aplicación mediante la vista MainView.java, en esta se muestra un enlace a ExampleView.java que como su
+nombre indica es un ejemplo sencillo de vista Vaadin que consta de un formulario que solicita al usuario su nombre y
+mediante una clase de servicio envía una clase de dominio a la capa de acceso a datos (Dao.java) que simplemente asigna el
+id de la clase de dominio recibida (Dominio.java) y "pinta" por consola el objeto recibido. 
 
-Con este ejemplo tenemos lo básico para tener vistas, servicios, objetos de dominio y de persistencia.
+
+Con este ejemplo tenemos lo básico para tener vistas Vaadin conectadas con Servicios, Objetos de dominio y de Persistencia
+de una forma sencilla y rápida.
